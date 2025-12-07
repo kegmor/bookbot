@@ -11,7 +11,6 @@ if __name__ == '__main__':
         sys.exit(1)
 
     book = sys.argv[1]
-    # print(get_book_text(book))
     num_words = get_num_words(book)
     num_chars = create_list_num_chars(book)
     print("============ BOOKBOT ============")
